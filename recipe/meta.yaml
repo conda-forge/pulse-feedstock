@@ -9,7 +9,7 @@ source:
   sha256: a36493c2330bb311ef90485a8996c97dc5d1dd99264000bdd9731d5f515056a3
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win or py<36]
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -21,13 +21,13 @@ requirements:
     - h5py
     - fenics
     - scipy
-    - matplotlib
+    - matplotlib-base
   run:
     - python
     - h5py
     - fenics
     - scipy
-    - matplotlib
+    - matplotlib-base
 test:
   imports:
     - pulse
