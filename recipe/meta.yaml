@@ -21,13 +21,15 @@ requirements:
     - h5py
     - fenics
     - scipy
-    - matplotlib-base
+    - numpy
+    - daiquiri
   run:
     - python
     - h5py
     - fenics
     - scipy
-    - matplotlib-base
+    - numpy
+    - daiquiri
 test:
   imports:
     - pulse
