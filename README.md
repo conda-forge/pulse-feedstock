@@ -1,7 +1,7 @@
 About pulse
 ===========
 
-Home: https://finsberg.github.io/pulse/html/index.html
+Home: https://finsberg.github.io/pulse
 
 Package license: LGPL-3.0
 
@@ -11,7 +11,7 @@ Summary: pulse is a python library based on FEniCS that aims to solve problems i
 
 Development: https://github.com/finsberg/pulse
 
-Documentation: https://finsberg.github.io/pulse/html/index.html
+Documentation: https://finsberg.github.io/pulse
 
 pulse is a python library based on FEniCS that aims to solve
 problems in continuum mechanics, in particular cardiac mechanics.
