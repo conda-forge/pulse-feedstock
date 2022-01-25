@@ -11,15 +11,15 @@ source:
 build:
   number: 1
   skip: true  # [win or py<36]
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
-    - fenics
   run:
-    - python
+    - python >=3.6
     - h5py
     - fenics
     - scipy
@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://finsberg.github.io/pulse
-  license: LGPL-2.0-or-later
+  license: LGPL-3.0-or-later
   license_family: LGPL
   license_file: LICENSE
   summary: pulse is a python library based on FEniCS that aims to solve problems in continuum mechanics
