@@ -1,4 +1,4 @@
-{% set version = "2022.0.0" %}
+{% set version = "2022.1.0" %}
 
 package:
   name: pulse
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/finsberg/pulse/archive/v{{ version }}.tar.gz
-  sha256: 8bf9047686602114e7fc3f5fcbf29c7acdb9002d491e50c4c56ee8bcf354dd9c
+  sha256: 37a288e4fa61f10c6cd24559ff5ac3e696165cd96a40c97dcb2708195d4856d2
 
 build:
   number: 0
