@@ -1,11 +1,11 @@
-About pulse
-===========
+About pulse-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pulse-feedstock/blob/main/LICENSE.txt)
 
 Home: https://finsberg.github.io/pulse
 
 Package license: LGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pulse-feedstock/blob/main/LICENSE.txt)
 
 Summary: pulse is a python library based on FEniCS that aims to solve problems in continuum mechanics
 
