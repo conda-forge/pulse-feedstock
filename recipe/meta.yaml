@@ -1,4 +1,6 @@
-{% set version = "2023.0.0" %}
+{% set name = "fenics-pulse" %}
+{% set version = "2023.1.0" %}
+
 
 package:
   name: pulse
@@ -10,7 +12,6 @@ source:
 
 build:
   number: 0
-  skip: true
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
