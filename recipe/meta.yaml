@@ -1,26 +1,26 @@
 {% set name = "fenics-pulse" %}
 {% set version = "2023.1.0" %}
 
+
 package:
   name: pulse
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d120dd62b0f094956abecbc5e4fdeeb9f75b8ffc14fdf9d653f0bd25696376b3
+  url: https://github.com/finsberg/pulse/archive/v{{ version }}.tar.gz
+  sha256: 1694d26ddec3a9aecb0c24a1834ee0dfb439adde7d089fe72f5a70be10171e8a
 
 build:
   number: 0
-  skip: true
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.6
     - pip
   run:
-    - python >=3.7
+    - python >=3.6
     - h5py
     - fenics
     - scipy
