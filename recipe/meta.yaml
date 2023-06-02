@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/finsberg/pulse/archive/v{{ version }}.tar.gz
-  sha256: 1694d26ddec3a9aecb0c24a1834ee0dfb439adde7d089fe72f5a70be10171e8a
+  sha256: b75369af9811074546e0574cd10c72760e38ec9db055c8cd984d4be4558fa60c
 
 build:
   number: 0
