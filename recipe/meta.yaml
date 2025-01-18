@@ -11,22 +11,24 @@ source:
   sha256: fe7ce6298638443d8e22a1afe8a63308f07bd61351466e4205dd3c12f82e1985
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - h5py
     - fenics
     - scipy
     - numpy
     - daiquiri
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - pulse
 
