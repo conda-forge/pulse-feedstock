@@ -11,7 +11,7 @@ source:
   sha256: fe7ce6298638443d8e22a1afe8a63308f07bd61351466e4205dd3c12f82e1985
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,6 +19,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
     - h5py
