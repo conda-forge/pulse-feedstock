@@ -1,5 +1,5 @@
 {% set name = "fenics-pulse" %}
-{% set version = "2024.0.1" %}
+{% set version = "2025.0.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/finsberg/pulse/archive/v{{ version }}.tar.gz
-  sha256: fe7ce6298638443d8e22a1afe8a63308f07bd61351466e4205dd3c12f82e1985
+  sha256: 539f19a97b58f6534f9d227005efdc0367712e3216cec73d69f79f41c923d31f
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
